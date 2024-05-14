@@ -1,8 +1,20 @@
+import { useLocation, Route, Routes } from "react-router-dom";
+
+import { Nav } from "./components";
+import { BarMenus, CafeMenu } from "./pages";
+
 function App() {
+  const location = useLocation;
+
   return (
-    <div className="app">
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <Nav />
+      <Routes location={location} key={location.pathname}>
+        <Route />
+        <Route />
+        <Route />
+      </Routes>
+    </>
   );
 }
 
