@@ -9,6 +9,8 @@
   color: #0f0f0f;
 }
 
+html,
 body {
   background-color: #c6d5c6;
+  font-family: "Roslindale Display Condensed";
 }
