@@ -1,9 +1,8 @@
 import { useLocation, Route, Routes } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 import { Nav } from "./components";
-import { Home } from "./pages";
-import CafeMenu from "./pages/CafeMenu";
-import BarMenu from "./pages/BarMenu";
+import { Home, CafeMenu, BarMenu } from "./pages";
 
 function App() {
   const location = useLocation();
@@ -11,11 +10,13 @@ function App() {
   return (
     <>
       <Nav />
-      <Routes location={location} key={location.pathname}>
-        <Route index element={<Home />} />
-        <Route path="/cafemenu" element={<CafeMenu />} />
-        <Route path="/barmenu" element={<BarMenu />} />
-      </Routes>
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route index element={<Home />} />
+          <Route path="/cafemenu" element={<CafeMenu />} />
+          <Route path="/barmenu" element={<BarMenu />} />
+        </Routes>
+      </AnimatePresence>
     </>
   );
 }

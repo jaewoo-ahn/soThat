@@ -1,4 +1,5 @@
 import React from "react";
+import transition from "../transition";
 
 const CafeMenu = () => {
   return (
@@ -10,4 +11,4 @@ const CafeMenu = () => {
   );
 };
 
-export default CafeMenu;
+export default transition(CafeMenu);

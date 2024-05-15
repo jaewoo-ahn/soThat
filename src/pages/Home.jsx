@@ -1,4 +1,5 @@
 import React from "react";
+import transition from "../transition";
 
 const Home = () => {
   return (
@@ -10,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default transition(Home);
