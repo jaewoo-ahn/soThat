@@ -1,10 +1,12 @@
 import { useLocation, Route, Routes } from "react-router-dom";
 
 import { Nav } from "./components";
-import { BarMenu, CafeMenu, Home } from "./pages";
+import { Home } from "./pages";
+import CafeMenu from "./pages/CafeMenu";
+import BarMenu from "./pages/BarMenu";
 
 function App() {
-  const location = useLocation;
+  const location = useLocation();
 
   return (
     <>
