@@ -3,12 +3,16 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="fixed w-full flex justify-between">
-      <div className="m-[2em] font-sm font-[1.5vw];">
-        <Link to="/">SOThaT</Link>
+    <div className="fixed w-full flex justify-between items-center bg-white">
+      <div className="p-3">
+        <Link to="/">
+          <p className="text-2xl text-red-900 font-bold">
+            SO<span className=" font-semibold">ThaT</span>
+          </p>
+        </Link>
       </div>
 
-      <div className="flex">
+      <div className="flex text-md">
         <div className="nav-items">
           <Link to="/">Home</Link>
         </div>
