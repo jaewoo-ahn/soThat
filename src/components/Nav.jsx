@@ -12,7 +12,7 @@ const Nav = () => {
         </Link>
       </div>
 
-      <div className="flex text-md">
+      <div className="flex text-md  p-4">
         <div className="nav-items">
           <Link to="/">Home</Link>
         </div>
