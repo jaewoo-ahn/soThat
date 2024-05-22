@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        blackhans: ["Black Han Sans", "sans-serif"],
+      },
       colors: {
         primary: "#f0f2f5",
         secondary: "#ff813f",
