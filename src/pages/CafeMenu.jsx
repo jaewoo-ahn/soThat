@@ -1,12 +1,16 @@
 import React from "react";
 import transition from "../transition";
+import { cafe } from "../data/cafe";
 
 const CafeMenu = () => {
   return (
-    <div>
-      <h1 className="w-[80% absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-[10vw] font-bold">
-        CafeMenu
-      </h1>
+    <div className="flex h-screen items-center justify-around">
+      <div className="w-1/3 ">
+        <p className="w-full border-b-2 border-black">Coffee</p>
+      </div>
+      <div className="w-1/3">
+        <p className="w-full border-b-2 border-black">NON Coffee</p>
+      </div>
     </div>
   );
 };
