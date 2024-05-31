@@ -8,7 +8,7 @@ const Nav = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <div className="fixed w-full flex justify-between items-center bg-[rgba(0,0,0,0.1)] rounded-b-lg shadow-lg shadow-gray-500 font-blackhans">
+    <div className="fixed w-full flex justify-between items-center bg-[#C6D5C6] rounded-b-lg shadow-lg shadow-gray-500 font-blackhans">
       <div className="p-3">
         <Link to="/">
           <p className="text-2xl text-red-900 font-bold">
