@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaCocktail, FaHome } from "react-icons/fa";
 import { IoMdCafe } from "react-icons/io";
+import { LuDessert } from "react-icons/lu";
+
 import useMediaQuery from "../hooks/useMediaQuery";
 
 const Nav = () => {
@@ -28,9 +30,14 @@ const Nav = () => {
               <IoMdCafe size={35} />
             </Link>
           </div>
-          <div className="nav-items ml-3 mb-1 mr-3">
+          <div className="nav-items ml-3 mb-1 mr-2">
             <Link to="/barmenu">
               <FaCocktail size={35} />
+            </Link>
+          </div>
+          <div className="nav-items  mb-1 mr-3">
+            <Link to="/snack">
+              <LuDessert size={35} />
             </Link>
           </div>
         </div>
