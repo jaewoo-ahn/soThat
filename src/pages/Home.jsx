@@ -60,6 +60,9 @@ const Home = () => {
         <p>혼술, 낮술 환영!!</p>
         <p>반려동물 환영</p>
       </motion.div>
+      <div className="w-1/7 mt-5">
+        <img src="/images/sothat.png" alt="logo" className="w-full h-1/2" />
+      </div>
     </div>
   );
 };
