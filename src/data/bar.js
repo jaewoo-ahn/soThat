@@ -1,1 +1,117 @@
-export const Bar = [];
+export const barmenu = [
+  {
+    base: "Vodka Base",
+    items: [
+      { name: "간더디", price: "6,500" },
+      { name: "스크류드라이버", price: "6,500" },
+      { name: "화이트러시안", price: "7,000" },
+      { name: "블랙러시안", price: "7,000" },
+      { name: "섹스온더비치", price: "8,000" },
+      { name: "코스모폴리탄", price: "6,500" },
+      { name: "카이피로스카", price: "6,500" },
+    ],
+  },
+  {
+    base: "Tequila Base",
+    items: [
+      { name: "선번", price: "7,000" },
+      { name: "블루마가리타", price: "8,500" },
+      { name: "마가리타", price: "7,000" },
+      { name: "테킬라선라이즈", price: "7,000" },
+      { name: "테킬라슬래머", price: "6,500" },
+    ],
+  },
+  {
+    base: "Gin Base",
+    items: [
+      { name: "진토닉", price: "7,000" },
+      { name: "오렌지블로섬", price: "6,500" },
+      { name: "마티니", price: "8,000" },
+      { name: "싱가폴슬링", price: "7,500" },
+    ],
+  },
+  {
+    base: "Whisky Base",
+    items: [
+      { name: "워스키콕", price: "8,500" },
+      { name: "짐빔콕", price: "8,500" },
+      { name: "잭콕", price: "8,500" },
+      { name: "워스키사워", price: "8,000" },
+      { name: "갈퍼더", price: "8,000" },
+      { name: "뉴욕", price: "8,000" },
+    ],
+  },
+  {
+    base: "Rum Base",
+    items: [
+      { name: "럼앤콜라", price: "8,000" },
+      { name: "핑아일랜드아이스티", price: "8,500" },
+      { name: "피나콜라다", price: "7,000" },
+      { name: "블루하와이", price: "8,000" },
+      { name: "데킬리", price: "7,000" },
+      { name: "쿠바리브레", price: "7,500" },
+      { name: "모히또", price: "8,000" },
+    ],
+  },
+  {
+    base: "Non-Alcoholic",
+    items: [
+      { name: "버진피나콜라다", price: "9,000" },
+      { name: "골든피치아이스티", price: "9,000" },
+      { name: "하와이안 아일랜드셔", price: "9,000" },
+    ],
+  },
+  {
+    base: "Beer",
+    items: [
+      { name: "코로나", price: "8,000" },
+      { name: "산미구엘", price: "8,000" },
+      { name: "호가든", price: "9,000" },
+    ],
+  },
+  {
+    base: "Liqueur Base",
+    items: [
+      { name: "오렌가줌", price: "7,000" },
+      { name: "팔뤼아믹스", price: "7,000" },
+      { name: "베일리스밀크", price: "7,000" },
+      { name: "베네딕틴", price: "8,000" },
+      { name: "카시스오렌지", price: "8,000" },
+      { name: "미도리샤워", price: "8,000" },
+      { name: "준벅", price: "8,000" },
+      { name: "P.S 아이러브유", price: "7,500" },
+      { name: "피치크러시", price: "8,000" },
+      { name: "아마레또샤워", price: "7,500" },
+    ],
+  },
+  {
+    base: "Whisky (Glass)",
+    items: [
+      { name: "와일드터키 101", price: "14,000" },
+      { name: "버팔로", price: "14,000" },
+      { name: "잭다니엘", price: "14,000" },
+      { name: "짐빔화이트", price: "8,000" },
+      { name: "메이커스마크", price: "14,000" },
+      { name: "그랜피디 12Y", price: "15,000" },
+      { name: "달모어 12Y", price: "15,000" },
+      { name: "글렌드로나크 12Y", price: "15,000" },
+      { name: "산토리 AO", price: "15,000" },
+      { name: "조니워커블랙라벨", price: "13,000" },
+      { name: "헤네시 VSOP", price: "15,000" },
+      { name: "호세쿠엘보", price: "7,000" },
+      { name: "발베니 12Y", price: "18,000" },
+      { name: "달카스크", price: "14,000" },
+    ],
+  },
+  {
+    base: "Highball",
+    items: [
+      { name: "스윗 하이볼", price: "11,000" },
+      { name: "산토리 하이볼", price: "8,000" },
+      { name: "잭다니엘 하이볼", price: "8,000" },
+      { name: "범베이 하이볼", price: "8,000" },
+      { name: "짐빔 하이볼", price: "8,000" },
+      { name: "피치 하이볼", price: "8,000" },
+    ],
+  },
+];
