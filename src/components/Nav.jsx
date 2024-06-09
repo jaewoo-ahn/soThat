@@ -11,9 +11,16 @@ const Nav = () => {
 
   return (
     <div className="fixed w-full flex justify-between items-center bg-[#C6D5C6] rounded-b-lg shadow-lg shadow-gray-500 font-blackhans">
-      <div className="p-3">
+      <div className="p-3 flex items-center justify-center">
+        <div className="w-[2rem] h-[2rem] ">
+          <img
+            src="/images/sothat.png"
+            className="rounded-full w-full h-full"
+            alt=""
+          />
+        </div>
         <Link to="/">
-          <p className="text-2xl text-red-900 font-bold">
+          <p className="text-2xl text-red-900 font-bold pt-1">
             SO<span className=" font-semibold">ThaT</span>
           </p>
         </Link>
