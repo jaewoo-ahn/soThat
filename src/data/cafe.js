@@ -1,7 +1,7 @@
 export const cafe = [
   {
     coffee: [
-      { name: "아메리카노", price: "3,000", best: false, signiture: false },
+      { name: "아메리카노", price: "3,800", best: false, signiture: false },
       { name: "카페 라떼", price: "4,500", best: false, signiture: false },
       { name: "뱌닐라 라떼", price: "5,500", best: true, signiture: false },
       { name: "연유 라떼", price: "5,500", best: false, signiture: false },

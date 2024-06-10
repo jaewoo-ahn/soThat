@@ -5,7 +5,7 @@ import { snack } from "../data/snack";
 
 const Snack = () => {
   return (
-    <div className="flex h-screen items-center justify-around">
+    <div className="flex h-screen items-start justify-around mt-20">
       <div className="w-1/3 ">
         <p className="w-full border-b-2 border-black text-3xl font-blackhans p-2">
           Coffee

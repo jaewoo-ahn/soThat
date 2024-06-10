@@ -4,7 +4,7 @@ import { cafe } from "../data/cafe";
 
 const CafeMenu = () => {
   return (
-    <div className="flex h-screen items-center justify-around">
+    <div className="flex h-screen items-start justify-around mt-20">
       <div className="w-1/3 ">
         <p className="w-full border-b-2 border-black text-3xl font-blackhans p-2">
           Coffee
@@ -53,7 +53,7 @@ const CafeMenu = () => {
           <div className="pt-20 ">
             <div className="flex justify-between font-blackhans text-2xl">
               <p>Tea</p>
-              <p>5,000</p>
+              <p>5,800</p>
             </div>
             <div className="flex font-blackhans text-1xl">
               {cafe[0].tea.map((res, idx) => {

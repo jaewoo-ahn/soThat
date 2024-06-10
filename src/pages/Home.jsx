@@ -14,9 +14,9 @@ const Home = () => {
   // };
 
   return (
-    <div className=" flex flex-col items-center justify-center font-blackhans">
+    <div className=" flex flex-col items-center justify-center font-blackhans ">
       <motion.h1
-        className="font-bold text-[10rem] mt-20"
+        className="font-bold text-[10rem] "
         initial="hidden"
         animate="visible"
         variants={containerVariants}

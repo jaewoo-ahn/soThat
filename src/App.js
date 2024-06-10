@@ -10,15 +10,17 @@ function App() {
   return (
     <>
       <Nav />
-      <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route index element={<Home />} />
-          <Route path="/cafemenu" element={<CafeMenu />} />
-          <Route path="/barmenu" element={<BarMenu />} />
-          <Route path="/barsecondmenu" element={<BarSecondMenu />} />
-          <Route path="/snack" element={<Snack />} />
-        </Routes>
-      </AnimatePresence>
+      <div className="pt-20">
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route index element={<Home />} />
+            <Route path="/cafemenu" element={<CafeMenu />} />
+            <Route path="/barmenu" element={<BarMenu />} />
+            <Route path="/barsecondmenu" element={<BarSecondMenu />} />
+            <Route path="/snack" element={<Snack />} />
+          </Routes>
+        </AnimatePresence>
+      </div>
     </>
   );
 }
