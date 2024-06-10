@@ -12,6 +12,11 @@ const Nav = () => {
   return (
     <div className="fixed w-full flex justify-between items-center bg-[#C6D5C6] rounded-b-lg shadow-lg shadow-gray-500 font-blackhans">
       <div className="p-3 flex items-center justify-center">
+        <Link to="/">
+          <p className="text-2xl text-red-900 font-bold pt-1">
+            SO<span className=" font-semibold">ThaT</span>
+          </p>
+        </Link>
         <div className="w-[2rem] h-[2rem] ">
           <img
             src="/images/sothat.png"
@@ -19,11 +24,6 @@ const Nav = () => {
             alt=""
           />
         </div>
-        <Link to="/">
-          <p className="text-2xl text-red-900 font-bold pt-1">
-            SO<span className=" font-semibold">ThaT</span>
-          </p>
-        </Link>
       </div>
       {isAboveMediumScreens ? (
         <div className="flex text-md items-center justify-center ">
