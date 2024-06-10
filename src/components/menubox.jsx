@@ -2,7 +2,7 @@ import React from "react";
 
 const Menubox = ({ base, items }) => {
   return (
-    <div className="w-1/3 mt-10">
+    <div className="w-full mt-10 px-10">
       <p className="w-full border-b-2 border-black text-3xl font-blackhans p-2">
         {base}
       </p>

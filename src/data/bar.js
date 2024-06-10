@@ -2,13 +2,15 @@ export const barmenu = [
   {
     base: "Vodka Base",
     items: [
-      { name: "간더디", price: "6,500" },
+      { name: "갇머더", price: "6,500" },
       { name: "스크류드라이버", price: "6,500" },
       { name: "화이트러시안", price: "7,000" },
       { name: "블랙러시안", price: "7,000" },
       { name: "섹스온더비치", price: "8,000" },
       { name: "코스모폴리탄", price: "6,500" },
-      { name: "카이피로스카", price: "6,500" },
+      { name: "가미가제", price: "6,500" },
+      { name: "치치", price: "8.000" },
+      { name: "시브리즈", price: "7,500" },
     ],
   },
   {
