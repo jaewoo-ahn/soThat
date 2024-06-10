@@ -18,9 +18,9 @@ export const barmenu = [
     items: [
       { name: "선번", price: "7,000" },
       { name: "블루마가리타", price: "8,500" },
-      { name: "마가리타", price: "7,000" },
-      { name: "테킬라선라이즈", price: "7,000" },
-      { name: "테킬라슬래머", price: "6,500" },
+      { name: "마가리타", price: "8,500" },
+      { name: "데킬라선라이즈", price: "7,000" },
+      { name: "데킬라슬래머", price: "6,500" },
     ],
   },
   {
