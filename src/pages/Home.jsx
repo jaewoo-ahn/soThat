@@ -45,7 +45,7 @@ const Home = () => {
         transition={{ duration: 3 }}
         className="flex flex-col items-center mt-3 leading-none tracking-[0.2em]"
       >
-        <p>운영시간 09:00 ~ 01:00</p>
+        <p>운영시간 10:00 ~ 01:00</p>
         <p>매주 수요일 정기휴무</p>
       </motion.div>
       <motion.div
