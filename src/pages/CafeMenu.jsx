@@ -4,12 +4,12 @@ import { cafe } from "../data/cafe";
 
 const CafeMenu = () => {
   return (
-    <div className="flex h-screen items-start justify-around mt-20">
-      <div className="w-1/3 ">
+    <div className="flex flex-col sm:flex-row h-screen items-start justify-around sm:mt-20">
+      <div className="w-full sm:w-1/3 mb-6 sm:mb-0">
         <p className="w-full border-b-2 border-black text-3xl font-blackhans p-2">
           Coffee
         </p>
-        <div className="mt-2">
+        <div className="mt-2 px-8 sm:px-0">
           {cafe[0].coffee.map((res, idx) => {
             return (
               <div
@@ -30,15 +30,15 @@ const CafeMenu = () => {
             );
           })}
         </div>
-        <p className=" pt-20 font-blackhans">
+        <p className="pt-7 sm:pt-20 pl-4 sm:pl-0 font-blackhans">
           사이즈업 +2500 샷추가 +500 크림추가 +500
         </p>
       </div>
-      <div className="w-1/3">
+      <div className="w-full sm:w-1/3">
         <p className="w-full border-b-2 border-black text-3xl font-blackhans p-2">
           NON Coffee
         </p>
-        <div className="mt-2">
+        <div className="mt-2 px-8 sm:px-0">
           {cafe[0].nonecoffee.map((res, idx) => {
             return (
               <div
@@ -50,7 +50,7 @@ const CafeMenu = () => {
               </div>
             );
           })}
-          <div className="pt-20 ">
+          <div className="pt-7 sm:pt-20 pl-4 sm:pl-0 font-blackhans">
             <div className="flex justify-between font-blackhans text-2xl">
               <p>Tea</p>
               <p>5,800</p>
