@@ -5,10 +5,10 @@ import { snack } from "../data/snack";
 
 const Snack = () => {
   return (
-    <div className="flex h-screen items-start justify-around mt-20">
-      <div className="w-1/3 ">
+    <div className="flex h-screen items-start justify-around sm:mt-20 mt-10">
+      <div className="sm:w-1/3 w-full sm:px-0 px-5">
         <p className="w-full border-b-2 border-black text-3xl font-blackhans p-2">
-          Coffee
+          SNACK
         </p>
         <div className="mt-2">
           {snack.map((res, idx) => {
