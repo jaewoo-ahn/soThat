@@ -17,6 +17,14 @@ const Nav = () => {
     closed: { opacity: 0, x: "100%" },
   };
 
+  const applyStyles = (word) => {
+    return word.split("").map((char, index) => (
+      <span key={index} className={index % 2 === 1 ? "text-red-900" : ""}>
+        {char}
+      </span>
+    ));
+  };
+
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -74,11 +82,35 @@ const Nav = () => {
           >
             <div className="flex flex-col items-center p-4">
               <button
-                className="self-end mb-4"
+                className="self-end mb-4 text-[2rem]"
                 onClick={() => setIsOpen(false)}
               >
                 X
               </button>
+              <Link to="/" onClick={() => setIsOpen(false)} className="mt-4">
+                <p className="text-[3rem]">{applyStyles("HOME")}</p>
+              </Link>
+              <Link
+                to="/cafemenu"
+                onClick={() => setIsOpen(false)}
+                className="mt-4"
+              >
+                <p className="text-[3rem]">{applyStyles("CAFE")}</p>
+              </Link>
+              <Link
+                to="/barmenu"
+                onClick={() => setIsOpen(false)}
+                className="mt-4"
+              >
+                <p className="text-[3rem]">{applyStyles("DRINK")}</p>
+              </Link>
+              <Link
+                to="/snack"
+                onClick={() => setIsOpen(false)}
+                className="mt-4"
+              >
+                <p className="text-[3rem]">{applyStyles("SNACK")}</p>
+              </Link>
             </div>
           </motion.div>
         )}
