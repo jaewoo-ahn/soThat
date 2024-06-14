@@ -14,7 +14,7 @@ const Home = () => {
   // };
 
   return (
-    <div className=" flex flex-col items-center justify-center font-blackhans ">
+    <div className=" flex flex-col items-center justify-center   md:justify-between font-blackhans ">
       <motion.h1
         className="font-bold xl:text-[10rem]  text-[4rem]"
         initial="hidden"

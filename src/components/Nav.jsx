@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaCocktail, FaHome } from "react-icons/fa";
 import { IoMdCafe } from "react-icons/io";
 import { LuDessert } from "react-icons/lu";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import useMediaQuery from "../hooks/useMediaQuery";
 
@@ -49,7 +50,9 @@ const Nav = () => {
           </div>
         </div>
       ) : (
-        <></>
+        <div className="pr-2 cursor-pointer">
+          <GiHamburgerMenu size={45} />
+        </div>
       )}
     </div>
   );
