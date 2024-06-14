@@ -4,11 +4,20 @@ import { FaCocktail, FaHome } from "react-icons/fa";
 import { IoMdCafe } from "react-icons/io";
 import { LuDessert } from "react-icons/lu";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 import useMediaQuery from "../hooks/useMediaQuery";
 
 const Nav = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+
+  const variants = {
+    open: { opacity: 1, x: 0 },
+    closed: { opacity: 0, x: "100%" },
+  };
+
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="fixed w-full flex justify-between items-center bg-[#C6D5C6] rounded-b-lg shadow-lg shadow-gray-500 font-blackhans">
@@ -50,10 +59,30 @@ const Nav = () => {
           </div>
         </div>
       ) : (
-        <div className="pr-2 cursor-pointer">
+        <div className="pr-2 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
           <GiHamburgerMenu size={45} />
         </div>
       )}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial="closed"
+            animate="open"
+            exit="closed"
+            variants={variants}
+            className="fixed top-0 right-0 h-full w-2/3 bg-white shadow-lg z-50"
+          >
+            <div className="flex flex-col items-center p-4">
+              <button
+                className="self-end mb-4"
+                onClick={() => setIsOpen(false)}
+              >
+                X
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
