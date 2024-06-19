@@ -32,5 +32,3 @@ const Menubox = ({ base, items }) => {
 };
 
 export default Menubox;
-
-//todo email로 손님이 추가하고싶은거 !!
