@@ -1,6 +1,5 @@
 import React from "react";
 import transition from "../transition";
-import { cafe } from "../data/cafe";
 import { snack } from "../data/snack";
 
 const Snack = () => {
