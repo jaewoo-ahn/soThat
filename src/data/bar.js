@@ -116,16 +116,71 @@ export const barmenu = [
   {
     base: "Tequila Base",
     items: [
-      { name: "선번", price: "7,000" },
-      { name: "블루마가리타", price: "8,500" },
-      { name: "마가리타", price: "8,500" },
-      { name: "데킬라선라이즈", price: "7,000" },
-      { name: "데킬라슬래머", price: "6,500" },
-      { name: "아이스브레이커", price: "8,000" },
-      { name: "마타도르", price: "7,500" },
-      { name: "팔로마", price: "8,000" },
-      { name: "엘 디아블로", price: "8,500" },
-      { name: "몽가리타", price: "8,500" },
+      {
+        name: "선번",
+        price: "7,500",
+        ingredient: ["데킬라", "오렌지향", "크랜베리"],
+      },
+      {
+        name: "데킬라선라이즈",
+        price: "7,500",
+        ingredient: ["데킬라", "오렌지쥬스", "석류"],
+      },
+      {
+        name: "마가리타",
+        price: "9,500",
+        ingredient: ["데킬라", "미도리", "유자", "라임"],
+      },
+      {
+        name: "블루마가리타",
+        price: "9,500",
+        ingredient: ["데킬라", "블루큐라소", "미도리", "유자", "라임"],
+      },
+      {
+        name: "자몽가리타",
+        price: "9,500",
+        ingredient: ["데킬라", "자몽리큐르", "유자", "라임"],
+      },
+      {
+        name: "데킬라슬래머",
+        price: "6,500",
+        ingredient: ["데킬라", "토닉워터", "one shot"],
+      },
+      {
+        name: "아이스브레이커",
+        price: "8,500",
+        ingredient: ["데킬라", "오렌지향", "자몽", "석류"],
+      },
+      {
+        name: "마타도르",
+        price: "8,500",
+        ingredient: ["데킬라", "파인애플", "라임"],
+      },
+      {
+        name: "엘 디아블로",
+        price: "8,500",
+        ingredient: ["데킬라", "진저에일", "라임"],
+      },
+      {
+        name: "팔로마",
+        price: "8,500",
+        ingredient: ["데킬라", "라임", "지몽"],
+      },
+      {
+        name: "돌핀샤워",
+        price: "8,500",
+        ingredient: ["데킬라", "블루큐라소", "생크림", "소금", "말리부"],
+      },
+      {
+        name: "토레아도르",
+        price: "8,000",
+        ingredient: ["데킬라", "아마레또", "라임"],
+      },
+      {
+        name: "데낄라선셋",
+        price: "8,000",
+        ingredient: ["데킬라", "망고", "석류"],
+      },
     ],
   },
   {
