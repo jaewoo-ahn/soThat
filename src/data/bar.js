@@ -272,13 +272,88 @@ export const barmenu = [
   {
     base: "Whisky Base",
     items: [
-      { name: "워스키콕", price: "8,500" },
-      { name: "짐빔콕", price: "8,500" },
-      { name: "잭콕", price: "8,500" },
-      { name: "워스키사워", price: "8,000" },
-      { name: "갇퍼더", price: "8,000" },
-      { name: "뉴욕", price: "8,000" },
-      { name: "올드페션드", price: "8,500" },
+      {
+        name: "갇퍼더",
+        price: "9,500",
+        ingredient: ["위스키", "아마레또", "시나몬스틱"],
+      },
+      {
+        name: "시실리안키스",
+        price: "9,500",
+        ingredient: ["위스키", "서던컴퍼트"],
+      },
+      {
+        name: "러스티네일",
+        price: "9,500",
+        ingredient: ["위스키", "드람뷔"],
+      },
+      {
+        name: "잭콕",
+        price: "8,500",
+        ingredient: ["위스키", "콜라"],
+      },
+      {
+        name: "아이리쉬커피",
+        price: "9,000",
+        ingredient: ["위스키", "에스프레도소2샷", "생크림"],
+      },
+      {
+        name: "올드패션드",
+        price: "9,500",
+        ingredient: ["버번", "아로마비터", "흑설탕", "탄산", "체리"],
+      },
+      {
+        name: "블랙뷰티",
+        price: "9,500",
+        ingredient: ["버번", "복숭아", "크랜베리"],
+      },
+      {
+        name: "알딸딸바닐라",
+        price: "12,000",
+        ingredient: ["위스키1샷", "바닐라아이스크림"],
+      },
+      {
+        name: "The last drop",
+        price: "14,000",
+        ingredient: ["꼬냑", "복숭아", "오렌지주스", "카시스"],
+      },
+      {
+        name: "와일드플라워",
+        price: "14,000",
+        ingredient: ["와일드터키", "아마레또", "복숭아", "라임"],
+      },
+      {
+        name: "레드애플",
+        price: "14,000",
+        ingredient: ["버번", "애플퍼커", "크랜베리"],
+      },
+      {
+        name: "코멧",
+        price: "17,000",
+        ingredient: [
+          "꼬냑",
+          "오렌지향",
+          "드람뷔",
+          "자몽쥬스",
+          "아로마비터",
+          "슈가",
+        ],
+      },
+      {
+        name: "사이드카",
+        price: "14,000",
+        ingredient: ["꼬냑", "오렌지향", "레몬"],
+      },
+      {
+        name: "버번밀크펀치",
+        price: "12,000",
+        ingredient: ["버번", "우유", "바닐라시럽"],
+      },
+      {
+        name: "맨하탄",
+        price: "9,000",
+        ingredient: ["위스키", "로쏘", "비터"],
+      },
     ],
   },
   {
