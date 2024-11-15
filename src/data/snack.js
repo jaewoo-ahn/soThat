@@ -5,7 +5,11 @@ export const snack = [
   { name: "치즈 팝콘", price: "4,500" },
   { name: "칠리 팝콘", price: "4,500" },
   { name: "아몬드 & 초콜렛", price: "3,000" },
+  { name: "마스카포네 & 크레커", price: "9,000" },
+  { name: "그거주세요", price: "3,500" },
   { name: "나초 & 소스", price: "7,000" },
   { name: "브리치즈 구이", price: "15,000" },
+  { name: "감자튀김", price: "8,000" },
+  { name: "육포", price: "13,000" },
   { name: "외부음식", price: "5,000" },
 ];

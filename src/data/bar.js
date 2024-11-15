@@ -812,14 +812,26 @@ export const barmenu = [
   {
     base: "Highball",
     items: [
-      { name: "쏘뎃 하이볼", price: "11,000" },
+      {
+        name: "쏘뎃 하이볼",
+        price: "11,000",
+        ingredient: ["산토리가쿠빈", "산토리AO"],
+      },
       { name: "산토리 하이볼", price: "8,000" },
       { name: "잭다니엘 하이볼", price: "8,000" },
       { name: "봄베이 하이볼", price: "8,000" },
       { name: "짐빔 하이볼", price: "8,000" },
       { name: "피치 하이볼", price: "8,500" },
-      { name: "메론소다 하이볼", price: "11,000" },
-      { name: "에메랄드쿨러", price: "8,500" },
+      {
+        name: "메론소다 하이볼",
+        price: "11,000",
+        ingredient: ["메론리큐르", "토닉워터", "아이스크림"],
+      },
+      {
+        name: "에메랄드쿨러",
+        price: "8,500",
+        ingredient: ["봄베이", "민트"],
+      },
       { name: "파이어 하이볼", price: "8,500" },
     ],
   },
