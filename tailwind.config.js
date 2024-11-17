@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"], // 다크 모드 설정 유지
   content: [
     "./src/**/*.{html,js,jsx}", // 첫 번째 설정의 파일 경로
-    "app/**/*.{ts,tsx}", // 두 번째 설정의 파일 경로
-    "components/**/*.{ts,tsx}", // 두 번째 설정의 파일 경로
   ],
   theme: {
     extend: {
