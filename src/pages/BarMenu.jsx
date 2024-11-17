@@ -7,7 +7,7 @@ const BarMenus = () => {
   return (
     <section className="flex flex-col md:flex-row h-screen items-start justify-around">
       <div className="md:w-1/2 w-full">
-        <Menubox base={barmenu[0].base} items={barmenu[0].items} />
+        <Menubox base={barmenu[0].base} items={barmenu[0].items} ingreident />
         <Menubox base={barmenu[5].base} items={barmenu[5].items} />
         <Menubox base={barmenu[6].base} items={barmenu[6].items} />
         <Menubox base={barmenu[9].base} items={barmenu[9].items} />
