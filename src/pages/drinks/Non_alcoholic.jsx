@@ -1,7 +1,7 @@
 import React from "react";
 
-const Non_alcoholic = () => {
-  return <div>Non_alcoholic</div>;
+const NonAlcoholic = () => {
+  return <div>A</div>;
 };
 
-export default Non_alcoholic;
+export default NonAlcoholic;
