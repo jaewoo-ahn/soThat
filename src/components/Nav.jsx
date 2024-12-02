@@ -18,6 +18,19 @@ const Nav = () => {
     ));
   };
 
+  const drinkslink = [
+    { name: "Beer", links: "/beer" },
+    { name: "Gin", links: "/gin" },
+    { name: "Glass", links: "/glass" },
+    { name: "HighBall", links: "/highball" },
+    { name: "Liqueur", links: "/liqueur" },
+    { name: "Non_Alcoholic", links: "/nonalcoholic" },
+    { name: "Rum", links: "/rum" },
+    { name: "Tequila", links: "/tequila" },
+    { name: "Vodka", links: "/vodka" },
+    { name: "Whisky", links: "/whisky" },
+  ];
+
   const [isOpen, setIsOpen] = useState(false);
   const [isDrawer, setIsDrawer] = useState(false);
 
@@ -87,7 +100,16 @@ const Nav = () => {
                 >
                   <p className="text-[3rem]">{applyStyles("DRINK")}</p>
                 </div>
-                {isDrawer && <div>asd</div>}
+                <div className="flex flex-col text-center">
+                  {isDrawer &&
+                    drinkslink.map((res, idx) => {
+                      return (
+                        <Link key={idx} to={res.links}>
+                          {res.name}
+                        </Link>
+                      );
+                    })}
+                </div>
               </div>
             </div>
           </motion.div>

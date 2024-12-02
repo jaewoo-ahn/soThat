@@ -1,7 +1,7 @@
-import React from "react";
+import transition from "../../transition";
 
 const Rum = () => {
   return <div>Rum</div>;
 };
 
-export default Rum;
+export default transition(Rum);

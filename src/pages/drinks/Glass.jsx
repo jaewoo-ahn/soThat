@@ -1,7 +1,6 @@
-import React from "react";
-
+import transition from "../../transition";
 const Glass = () => {
   return <div>Glass</div>;
 };
 
-export default Glass;
+export default transition(Glass);

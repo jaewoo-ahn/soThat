@@ -1,7 +1,7 @@
-import React from "react";
+import transition from "../../transition";
 
 const Beer = () => {
   return <div>Beer</div>;
 };
 
-export default Beer;
+export default transition(Beer);
