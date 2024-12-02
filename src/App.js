@@ -2,7 +2,7 @@ import { useLocation, Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 import { Nav } from "./components";
-import { Home, CafeMenu, BarMenu, Snack } from "./pages";
+import { Home, CafeMenu, Snack } from "./pages";
 import {
   Beer,
   Gin,
@@ -27,7 +27,7 @@ function App() {
           <Routes location={location} key={location.pathname}>
             <Route index element={<Home />} />
             <Route path="/cafemenu" element={<CafeMenu />} />
-            <Route path="/barmenu" element={<BarMenu />} />
+
             <Route path="/snack" element={<Snack />} />
             <Route path="/beer" element={<Beer />} />
             <Route path="/gin" element={<Gin />} />
