@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Menubox = ({ base, items }) => {
+const Menubox = ({ base, items, ingredient }) => {
+  console.log(ingredient);
+  const [openIngredient, setOpenIngredient] = useState(false);
   return (
     <div className="w-full mt-8 px-10">
       <p className="w-full border-b-2 border-black text-3xl font-blackhans p-2">
@@ -14,7 +16,14 @@ const Menubox = ({ base, items }) => {
               className="flex w-full justify-between font-blackhans text-2xl py-2"
             >
               <div className="flex">
-                <p>{res.name}</p>
+                <p
+                  onClick={() => {
+                    setOpenIngredient(!openIngredient);
+                    console.log(openIngredient);
+                  }}
+                >
+                  {res.name}
+                </p>
                 {res.best ? <p className="text-red-900 ml-2">BEST</p> : <></>}
                 {res.signiture ? (
                   <p className="text-red-900 ml-2">SIGNATURE</p>

@@ -35,7 +35,7 @@ function App() {
             <Route path="/highball" element={<Highball />} />
             <Route path="/liqueur" element={<Liqueur />} />
             <Route path="/nonalcoholic" element={<NonAlcoholic />} />
-            <Route path="/run" element={<Rum />} />
+            <Route path="/rum" element={<Rum />} />
             <Route path="/tequila" element={<Tequila />} />
             <Route path="/vodka" element={<Vodka />} />
             <Route path="/whisky" element={<Whisky />} />
