@@ -1,7 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Nav = () => {
@@ -33,6 +32,13 @@ const Nav = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   const [isDrawer, setIsDrawer] = useState(false);
+  const location = useLocation();
+
+  // Close the menu when the route changes
+  useEffect(() => {
+    setIsOpen(false);
+    setIsDrawer(false);
+  }, [location]);
 
   return (
     <div className="fixed w-full flex justify-between items-center bg-[#C6D5C6] rounded-b-lg shadow-lg shadow-gray-500 font-blackhans">
@@ -62,7 +68,7 @@ const Nav = () => {
             animate="open"
             exit="closed"
             variants={variants}
-            className="fixed top-0 right-0 h-full rounded-xl  bg-white shadow-lg z-50"
+            className="fixed top-0 right-0 h-full rounded-xl bg-white shadow-lg z-50"
           >
             <div className="flex flex-col items-center p-4">
               <button
