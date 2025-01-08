@@ -21,7 +21,7 @@ const Menubox = ({ base, items }) => {
           return (
             <div
               key={idx}
-              className="flex flex-col w-full font-blackhans text-2xl py-4 border-b border-gray-300"
+              className="flex flex-col w-full font-blackhans text-2xl pt-4 border-b border-gray-300"
             >
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
@@ -41,7 +41,7 @@ const Menubox = ({ base, items }) => {
               {openIngredients[idx] &&
                 res.ingredient &&
                 res.ingredient.length > 0 && (
-                  <div className="mt-2 flex flex-wrap gap-2 ">
+                  <div className=" flex flex-wrap gap-2 ">
                     {res.ingredient.map((ing, i) => (
                       <p
                         key={i}
@@ -54,7 +54,7 @@ const Menubox = ({ base, items }) => {
                 )}
               {openIngredients[idx] &&
                 (!res.ingredient || res.ingredient.length === 0) && (
-                  <p className="mt-2  text-gray-500 text-sm font-sans">
+                  <p className=" text-gray-500 text-sm font-sans">
                     No ingredients available.
                   </p>
                 )}
