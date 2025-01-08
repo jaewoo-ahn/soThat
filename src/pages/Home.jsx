@@ -59,6 +59,17 @@ const Home = () => {
       <div className="w-1/7 mt-5">
         <img src="/images/sothat.png" alt="logo" className="w-full h-1/2" />
       </div>
+      <p
+        onClick={() => {
+          window.open(
+            "https://map.naver.com/p/entry/place/1369593894?lng=126.9539537&lat=37.4844635&placePath=%2Fhome&searchType=place&c=15.00,0,0,0,dh",
+            "_blank"
+          );
+        }}
+        className="pt-4 text-2xl cursor-pointer hover:text-red-600"
+      >
+        Location : 서울 관악구 중앙2길 16 1층 4호
+      </p>
     </div>
   );
 };

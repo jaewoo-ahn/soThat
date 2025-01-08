@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Menubox = ({ base, items }) => {
   const [openIngredients, setOpenIngredients] = useState(
-    Array(items.length).fill(false) // 각 아이템별 초기 상태를 false로 설정
+    Array(items.length).fill(false)
   );
 
   const toggleIngredient = (index) => {
@@ -26,7 +26,7 @@ const Menubox = ({ base, items }) => {
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
                   <p
-                    onClick={() => toggleIngredient(idx)} // 특정 아이템의 상태 변경
+                    onClick={() => toggleIngredient(idx)}
                     className="cursor-pointer"
                   >
                     {res.name}
