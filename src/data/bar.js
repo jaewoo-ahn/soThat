@@ -714,7 +714,7 @@ export const barmenu = [
         twooz: "17,000",
         bottle: "150,000",
       },
-      { name: "잭다니엘", oneoz: "7,000", towoz: "13,000", bottle: "130,000" },
+      { name: "잭다니엘", oneoz: "7,000", twooz: "13,000", bottle: "130,000" },
       {
         name: "우드포드리저브",
         oneoz: "11,000",

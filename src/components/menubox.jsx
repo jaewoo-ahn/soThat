@@ -37,6 +37,21 @@ const Menubox = ({ base, items }) => {
                   )}
                 </div>
                 <p>{res.price}</p>
+                {res.oneoz && (
+                  <p className="text-gray-600 text-sm ">
+                    <strong>1oz:</strong> {res.oneoz}
+                  </p>
+                )}
+                {res.twooz && (
+                  <p className="text-gray-600 text-sm ">
+                    <strong>2oz:</strong> {res.twooz}
+                  </p>
+                )}
+                {res.bottle && (
+                  <p className="text-gray-600 text-sm ">
+                    <strong>Bottle:</strong> {res.bottle}
+                  </p>
+                )}
               </div>
               {openIngredients[idx] &&
                 res.ingredient &&
